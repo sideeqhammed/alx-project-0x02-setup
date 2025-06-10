@@ -1,7 +1,7 @@
 import Header from "@/components/layout/Header"
 import Card from "@/components/common/Card"
 import PostModal from "@/components/common/PostModal"
-import {  CardProps } from "@/interface"
+import {  CardProps } from "@/interfaces"
 import { title } from "process"
 import React, { useState } from "react"
 

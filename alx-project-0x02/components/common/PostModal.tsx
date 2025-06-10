@@ -1,4 +1,4 @@
-import { CardProps, PostModalProps } from "@/interface";
+import { CardProps, PostModalProps } from "@/interfaces";
 import React, {useState} from "react";
 
 const PostModal: React.FC<PostModalProps> = ({onClose, onSubmit}) => {

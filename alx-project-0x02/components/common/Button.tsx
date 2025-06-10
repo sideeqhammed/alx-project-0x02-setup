@@ -1,4 +1,4 @@
-import { ButtonProps } from "@/interface";
+import { ButtonProps } from "@/interfaces";
 import React from "react";
 
 const PostButton: React.FC<ButtonProps> = ({name, size, shape}) => {

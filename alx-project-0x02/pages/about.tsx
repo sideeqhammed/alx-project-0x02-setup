@@ -1,5 +1,5 @@
 import Header from "@/components/layout/Header"
-import { ButtonProps } from "@/interface"
+import { ButtonProps } from "@/interfaces"
 import PostButton from "@/components/common/Button"
 
 const ButtonData: ButtonProps[] = [
