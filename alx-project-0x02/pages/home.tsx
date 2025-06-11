@@ -40,7 +40,7 @@ const Home: React.FC<CardProps[]> = () => {
         <button onClick={() => setModalOpen(true)}
           className="bg-gray-400 px-4 py-2 rounded-full shadow-lg hover:bg-gray-500 hover:shadow-xl transition-colors duration-700">Add Post</button>
       </div>
-      <div className="grid grid-cols-3 gap-2">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-2">
         {CardData?.map(({title, content}, index) => 
           <Card
           key={index}

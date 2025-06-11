@@ -11,7 +11,7 @@ const Posts: React.FC<PostProps> = ({ posts }) => {
   return(
     <div>
       <Header />
-      <div className="grid grid-cols-3 gap-2"> 
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-2"> 
         {
           posts?.map(({userId, title, body}, index) => 
             <PostCard 
